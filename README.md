@@ -1,7 +1,7 @@
 # PwGen
 I made this project during my course "The Modern Angular Bootcamp".
 ## Executing
-To run the project, you need to run "ng serve" or "npm start".
+To execute the project, you need to run "ng serve" or "npm start".
 
 ## Deploy
 My project is deployed on Vercel. You can find it with this link: https://pw-gen-roan.vercel.app
@@ -9,7 +9,7 @@ My project is deployed on Vercel. You can find it with this link: https://pw-gen
 --- 
 
 # PwGen
-Eu realizei esse projeto duranto meu curso "The Modern Angular Bootcamp".
+Eu realizei esse projeto durante meu curso "The Modern Angular Bootcamp".
 
 ## Execução
 Para executar o projeto, é necessário rodar os seguintes códigos: "ng serve" ou "npm start".
