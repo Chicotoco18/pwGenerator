@@ -30,6 +30,7 @@ export class AppComponent {
     const symbols = '!@#$%^&*()';
 
     let validChars = '';
+    
     if (this.includeLetters) {
       validChars += letters;
     }
@@ -53,6 +54,9 @@ export class AppComponent {
     const parsedValue = parseInt(value);
     if (!isNaN(parsedValue)) {
       this.length = parsedValue;
+    }
+    else{
+      this.length = 0;
     }
   }
 

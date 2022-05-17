@@ -32,7 +32,7 @@
         </div>
       </div>
 
-      <button  [disabled]="!(length &&(includeLetters|| includeNumbers || includeSymbols))" (click)="onButtonClick()" 
+      <button  [disabled]="length == 0 || !(includeSymbols || includeNumbers || includeLetters)" (click)="onButtonClick()" 
         class="button is-link is-fullwidth">Generate
       </button>
       
